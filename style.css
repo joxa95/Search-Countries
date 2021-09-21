@@ -1,0 +1,98 @@
+body {
+	display: flex;
+	justify-content: center;
+	margin: 0%;
+	background-image: url(./img/2223192.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.404);
+	width: 100%;
+	height: 100vh;
+}
+
+.search {
+	position: absolute;
+	border-radius: 15px;
+	outline: none;
+	border: none;
+	background-color: rgba(105, 105, 105, 0.6);
+	color: rgb(214, 214, 214);
+	backdrop-filter: blur(3px);
+	padding-left: 10px;
+	margin-top: 40px;
+	width: 40%;
+	height: 30px;
+	font-size: 1.1rem;
+	/* box-shadow: 0 0 15px rgba(0, 255, 34, 0.904); */
+	box-shadow: 0 0 15px rgba(0, 68, 255, 0.904);
+}
+.find {
+	position: absolute;
+	margin-top: 44px;
+	margin-left: 350px;
+	height: 25px;
+	cursor: pointer;
+}
+.card {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	top: 110px;
+	width: 350px;
+	height: 300px;
+	border-radius: 15px;
+	backdrop-filter: blur(3px);
+	background-color: rgba(107, 107, 107, 0.37);
+	box-shadow: 0 0 15px rgb(0, 68, 255);
+}
+.card p {
+	margin: 5px;
+	font-size: 1.1rem;
+}
+.card img {
+	margin: 10px;
+	height: 150px;
+	width: 80%;
+	border-radius: 10px;
+}
+.subcard {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 300px;
+	height: 300px;
+	border-radius: 15px;
+	backdrop-filter: blur(3px);
+	background-color: rgba(107, 107, 107, 0.329);
+	box-shadow: 0 0 15px rgb(255, 0, 0);
+}
+.subcard img {
+	margin: 10px;
+	height: 150px;
+	width: 80%;
+	border-radius: 10px;
+}
+.subcard p {
+	margin: 5px;
+
+	font-size: 1.1rem;
+}
+.subregion {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 45vh;
+	/* background-color: royalblue; */
+}
+p {
+	color: rgb(255, 207, 173);
+}
